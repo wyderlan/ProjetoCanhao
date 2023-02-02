@@ -1,0 +1,74 @@
+body{
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+height: 50px;  
+background:#000000;
+position: relative;
+}
+.logotipo{
+    margin: 5px 0 0;
+    width: 50px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 15px 0 0;
+    padding: 13px;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav a{
+    color: #f79731;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.1s linear;
+}
+.header-nav a:hover{
+color:white;
+}
+.portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #f79731;
+}
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #f79731;
+}
+.rodape{
+background: #000000;
+padding: 1px;
+font-size: 15px;
+color: #f79731;
+letter-spacing: 5px;
+text-align: center;
+}
+#principalimg{
+    height: 100%;
+    display:block;
+    margin: auto;
+    
+}
